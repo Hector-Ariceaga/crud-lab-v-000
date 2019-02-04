@@ -9,7 +9,7 @@ export default function manageRestaurants(state = {restaurants: [], reviews: []}
 
     case 'DELETE_RESTAURANT':
       const restaurants = state.restaurants.filter(restaurant => restaurant.id !== action.id)
-      return {, restaurants}
+      return {restaurants}
 
     case 'ADD_REVIEW':
       const review = {id: cuidFn(), restaurantId: action.review.restaurantId, text: action.review.text}
