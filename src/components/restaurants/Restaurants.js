@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 class Restaurants extends Component {
-  this.props.restaurants.map(restaurant => <Restaurant key={restaurant.id} {...restaurant} deleteRestaurant={this.props.deleteRestaurant}/>)
+  this.props.restaurants.map(restaurant => <Restaurant key={restaurant.id} {...restaurant} deleteRestaurant={restaurant.props.deleteRestaurant}/>)
 
   render() {
     return(
