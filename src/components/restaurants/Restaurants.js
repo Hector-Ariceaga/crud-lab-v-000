@@ -3,7 +3,7 @@ import Restaurant from './Restaurant'
 
 class Restaurants extends Component {
 
- restaurants = () => 
+ restaurants = () =>
 
   render() {
     return(
