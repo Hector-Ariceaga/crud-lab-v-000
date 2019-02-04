@@ -3,8 +3,6 @@ import Restaurant from './Restaurant'
 
 class Restaurants extends Component {
 
- restaurants = () =>
-
   render() {
     return(
       <ul>
