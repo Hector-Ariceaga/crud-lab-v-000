@@ -8,7 +8,7 @@ class Restaurants extends Component {
   render() {
     return(
       <ul>
-        {this.restaurants}
+        {restaurants}
       </ul>
     );
   }
