@@ -7,7 +7,7 @@ class Restaurants extends Component {
       <Restaurant key={restaurant.id} restaurant={restaurant} deleteRestaurant={this.props.deleteRestaurant} />
     })
     return(
-      
+
       <ul>
         {)}
       </ul>
