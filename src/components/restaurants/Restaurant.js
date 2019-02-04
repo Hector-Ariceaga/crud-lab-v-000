@@ -12,7 +12,7 @@ class Restaurant extends Component {
 
     return (
       <div>
-        {console.log(restaurant})}
+        {console.log(restaurant)}
         <li>
           {restaurant.text}
           <button onClick={this.handleOnClick}> X </button>
