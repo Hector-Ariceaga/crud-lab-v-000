@@ -15,7 +15,7 @@ export default function manageRestaurants(state = {restaurants: [], reviews = []
       const review = {id: cuid(), restaurantId: action.review.id, text: action.review.text}
       return {...state, reviews: [...state.reviews, review]}
 
-      
+
     default:
       return state;
   }
