@@ -9,7 +9,7 @@ class Reviews extends Component {
     const filteredReviews = restaurantReviews.map(review => {
       return <Review key={review.id} review={review} deleteReview={this.props.deleteReview} />
     })
-    
+
     return (
       <ul>
         {filteredReviews}
