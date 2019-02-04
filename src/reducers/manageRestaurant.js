@@ -12,8 +12,8 @@ export default function manageRestaurants(state = {restaurants: [], reviews: []}
       return {...state, restaurants}
 
     case 'ADD_REVIEW':
-      const review = {id: cuid(), restaurantId: action.review.id, text: action.review.text}
-      return {...state, restaurants: {...state.restaurants, reviews: [...reviews, review]}}
+      const review = {id: cuidFn(), restaurantId: action.review.restaurantId, text: action.review.text}
+      return {...state, reviews: [...state.reviews, review]]}}
 
 
     default:
