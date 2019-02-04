@@ -12,7 +12,7 @@ class Restaurant extends Component {
 
     return (
       <div>
-        <li key={restaurant.id}>
+        <li key={this.props.restaurant}>
           {restaurant.text}
           <button onClick={this.handleOnClick}> X </button>
           <ReviewsContainer restaurant={restaurant}/>
