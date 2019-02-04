@@ -3,7 +3,7 @@ import Restaurant from './Restaurant'
 
 class Restaurants extends Component {
 
- restaurants = (props) => {this.props.restaurants.map(restaurant => <Restaurant key={restaurant.id} {...restaurant} deleteRestaurant={this.props.deleteRestaurant} />)}
+ restaurants = () => {this.props.restaurants.map(restaurant => <Restaurant key={restaurant.id} {...restaurant} deleteRestaurant={this.props.deleteRestaurant} />)}
 
   render() {
     return(
