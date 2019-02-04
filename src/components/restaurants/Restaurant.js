@@ -9,7 +9,7 @@ class Restaurant extends Component {
 
   render() {
     const { restaurant } = this.props;
-    
+
     return (
       <div>
         {console.log({restaurant})}
