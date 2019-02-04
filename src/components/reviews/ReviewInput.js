@@ -19,7 +19,7 @@ class ReviewInput extends Component {
       text: ''
     })
   }
-  
+
   render() {
     return (
       <div>
@@ -30,6 +30,6 @@ class ReviewInput extends Component {
       </div>
     );
   }
-}; 
+};
 
 export default ReviewInput;
