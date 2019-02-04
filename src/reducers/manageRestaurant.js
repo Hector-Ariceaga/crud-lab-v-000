@@ -11,6 +11,6 @@ export default function manageRestaurants(state = {restaurants: []}, action) {
       const restaurants = state.restaurants.filter(restaurant => restaurant.id !== action.id)
       return {restaurants}
     default:
-      return state:
+      return state;
   }
 }
