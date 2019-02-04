@@ -4,6 +4,7 @@ import Reviews from './Reviews';
 class ReviewInput extends Component {
   state = {
     text: ''
+    restaurantID: this.props.restaurant.id
   }
 
   handleOnChange = event => {
@@ -14,7 +15,7 @@ class ReviewInput extends Component {
 
   handleOnSubmit = event => {
     event.preventDefault()
-    this.addReview(this.state.text)
+    this.addReview(this.state)
     this.setState({
       text: ''
     })
