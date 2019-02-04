@@ -8,10 +8,11 @@ class Restaurant extends Component {
   }
 
   render() {
-    const { restaurant } = this.props.restaurant;
+    const { restaurant } = this.props;
 
     return (
       <div>
+        {console.log({restaurant})}
         <li id={restaurant.id}>
           {restaurant.text}
           <button onClick={this.handleOnClick}> X </button>
