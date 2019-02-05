@@ -10,9 +10,10 @@ class Reviews extends Component {
       return <Review key={review.id} review={review} deleteReview={this.props.deleteReview} />
     })
 
+    const noReviews = <li>No Reviews</li>
     return (
       <ul>
-        {filteredReviews}
+        {filteredReviews ||}
       </ul>
     );
   }
