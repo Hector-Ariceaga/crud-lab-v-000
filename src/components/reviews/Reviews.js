@@ -11,7 +11,7 @@ class Reviews extends Component {
     })
 
     const noReviews = <li>No Reviews</li>
-    
+
     return (
       <ul>
         {filteredReviews || noReviews}
