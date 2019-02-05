@@ -12,7 +12,7 @@ class Reviews extends Component {
 
     return (
       <ul>
-        dummy text
+        {filteredReviews}
       </ul>
     );
   }
